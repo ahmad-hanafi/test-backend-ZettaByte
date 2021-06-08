@@ -1,0 +1,38 @@
+1. Explain about Event Loop & how Event Loop works
+Event Loop is a programming construct or design pattern that call as asynchronous. It use promise.
+
+2. Give an explanation about Callback Hell & how to avoid it?
+Callback hell is a condition when there are so many nested callback and it have deep level of nested callback. To avoid it, we can use promise, async and await. The main different between promise and callback are promise use chaining, not nesting like callback. 
+
+3. Give an explanation about Middleware concept
+Middleware is app or function that process before the main target of the API or function that we want exe. Middleware is good for extra layer of security and we can add some information before it go to the main process. 
+
+4. Give an explanation about Buffer
+Buffer is a block of memory that serves as a temporary placeholder. So data can be store on buffer to speed up the process which can reduce the diference betwenn input speed and output speed. There are several thing that act as buffer, for example cache.
+
+5. Give a list of differentiation of JavaScript iterator functions & For Loop
+Js iteration functions use condition that must be meet for terminate iteration. Iteration will keep going for uncertainly until condition has meet. We don't know how many times iteration takes to meet the conditions we want. 
+For loop already declare how many we want to do iterations.
+
+
+6. What is GraphQL?
+GraphQL is a query language for API, which return data for exacly like what we want. Not like REST API that return all the data, with GraphQL, the return data will have property like what we want on query. If we want name, it will only return name, not unnecessary property. 
+
+7. What is Resolver in GraphQL?
+Resolver are per field functions that are given a parent object, arguments, and the execution context, and are responsible for returning a result for that field. 
+
+8. Give a list about pros & cons using Embedded Document & Reference ID in
+MongoDB
+
+Pros:
+- Easy to access data that regularly accessed together,
+- Make it relations to One data to another data.
+
+Cons:
+- the data must store together, cannot stand alone or create later on.
+
+9. What is Aggregation in MongoDB?
+Aggregation is a helper method that process data and return computed result.
+
+10. Give an explanation about Pipeline in Aggregation MongoDB
+Aggregation pipelines are collections of stages that, combined with the MongoDB query syntax, will allow you to obtain an aggregated result. So data must go through several stages and return computed result
